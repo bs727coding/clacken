@@ -1,0 +1,5 @@
+config SHIELD_ANTARES_LEFT
+	def_bool $(shields_list_contains,antares_left)
+
+config SHIELD_ANTARES_RIGHT
+	def_bool $(shields_list_contains,antares_right)

@@ -1,0 +1,26 @@
+if SHIELD_ANTARES_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Alpha Scorpii"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_STUDIO
+    default y
+
+config CONFIG_ZMK_BLE_EXPERIMENTAL_CONN
+    def_bool y
+
+config CONFIG_ZMK_HID_REPORT_TYPE_NKRO
+    def_bool n
+
+endif
+
+
+if SHIELD_ANTARES_LEFT || SHIELD_ANTARES_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
