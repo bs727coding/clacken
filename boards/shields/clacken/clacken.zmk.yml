@@ -1,5 +1,5 @@
 file_format: "1"
-id: antares
+id: CLACKEN
 name: Alpha Scorpii
 type: shield
 requires:
@@ -11,5 +11,5 @@ features:
   - studio
 #  - display
 siblings:
-  - antares_left
-  - antares_right
+  - CLACKEN_left
+  - CLACKEN_right
