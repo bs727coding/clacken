@@ -7,7 +7,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_STUDIO
-    default n
+    default y
 
 config CONFIG_ZMK_BLE_EXPERIMENTAL_CONN
     def_bool n
