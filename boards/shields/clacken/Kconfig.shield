@@ -1,5 +1,5 @@
 config SHIELD_CLACKEN_LEFT
-	def_bool $(shields_list_contains,CLACKEN_left)
+	def_bool $(shields_list_contains,clacken_left)
 
 config SHIELD_CLACKEN_RIGHT
-	def_bool $(shields_list_contains,CLACKEN_right)
+	def_bool $(shields_list_contains,clacken_right)

@@ -1,15 +1,14 @@
 file_format: "1"
 id: CLACKEN
-name: Alpha Scorpii
+name: Clacken
 type: shield
 requires:
-  - nice_nano_v2
+  - seeeduino_xiao_ble
 exposes:
 #  - i2c_oled
 features:
   - keys
-  - studio
-#  - display
+#  - studio
 siblings:
-  - CLACKEN_left
-  - CLACKEN_right
+  - clacken_left
+  - clacken_right

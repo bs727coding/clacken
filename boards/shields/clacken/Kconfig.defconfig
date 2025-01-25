@@ -1,13 +1,13 @@
 if SHIELD_CLACKEN_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Alpha Scorpii"
+    default "Clacken"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_STUDIO
-    default y
+    default n
 
 config CONFIG_ZMK_BLE_EXPERIMENTAL_CONN
     def_bool y
