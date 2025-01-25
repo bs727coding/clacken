@@ -10,7 +10,7 @@ config ZMK_STUDIO
     default n
 
 config CONFIG_ZMK_BLE_EXPERIMENTAL_CONN
-    def_bool y
+    def_bool n
 
 config CONFIG_ZMK_HID_REPORT_TYPE_NKRO
     def_bool n
